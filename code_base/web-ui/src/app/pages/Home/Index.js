@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import { AppBar, Tab, Tabs, Paper, Button , Typography} from "@material-ui/core";
+import { AppBar, Tab, Tabs, Paper, Button, Typography } from "@material-ui/core";
 import Nav from './components/Nav'
 import Middle from './components/Middle'
 
@@ -18,9 +18,11 @@ export const Home = props => {
 
 
     return (
-        <>
-         <Nav />
-         <Middle />
-        </>
+        <div style={{ display: 'flex', height: '100%' }}>
+            <div style={{ flexGrow: 1 }}>
+                <Nav />
+                <Middle />
+            </div>
+        </div>
     );
 }

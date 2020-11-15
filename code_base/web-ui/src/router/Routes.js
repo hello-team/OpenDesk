@@ -9,7 +9,7 @@ export const Routes = () => {
     <Suspense fallback={<Spinner />}>
     <Switch>
       {
-        /* Redirect from root URL to /quick-start. */
+        /* Redirect from root URL to /home. */
         <Redirect exact from="/" to="/home" />
       }
       <Route path="/home" component={HomeRouter} />

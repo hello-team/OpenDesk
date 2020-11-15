@@ -1,7 +1,7 @@
 {
   "name": "first-app",
   "version": "0.1.0",
-  "homepage": "/",
+  "homepage": "/home",
   "private": true,
   "engines": {
     "node": "10.x"

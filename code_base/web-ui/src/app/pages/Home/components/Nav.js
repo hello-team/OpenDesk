@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import { makeStyles } from '@material-ui/core/styles';
 import { AppBar, Tabs, Tab, Toolbar, Link } from '@material-ui/core';
 import {toAbsoluteUrl} from '../../../utils/utils'
+import ReactLogo from '../../../assets/svg/home/logo.svg'
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -53,7 +54,7 @@ export default function Nav() {
                     <img
                     style={{maxHeight:'50%'}}
                     alt="Logo"
-                    src={toAbsoluteUrl("/media/logos/red-logo.png")}
+                    src={ReactLogo}
                   />
                 </div>
                     <div className={classes.navContainer}>
